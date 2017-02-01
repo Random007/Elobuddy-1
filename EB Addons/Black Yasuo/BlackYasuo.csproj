@@ -92,13 +92,26 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Bases\DamageDBBase.cs" />
+    <Compile Include="Bases\SpellDataBase.cs" />
+    <Compile Include="Cache.cs" />
     <Compile Include="DamageIndicator.cs" />
     <Compile Include="DamageManager.cs" />
     <Compile Include="DashManager.cs" />
+    <Compile Include="DashPosition.cs" />
+    <Compile Include="Databases\DamageDB.cs" />
+    <Compile Include="Databases\SpellDB.cs" />
     <Compile Include="DrawingManager.cs" />
+    <Compile Include="DynamicSpell.cs" />
+    <Compile Include="DynamicSpellObsolete.cs" />
     <Compile Include="EManager.cs" />
+    <Compile Include="Colors.cs" />
+    <Compile Include="Extensions.cs" />
+    <Compile Include="GlobalSuppressions.cs" />
     <Compile Include="Helper.cs" />
     <Compile Include="Loader.cs" />
+    <Compile Include="MenuControls\ColorSlider.cs" />
+    <Compile Include="MissileDetection.cs" />
     <Compile Include="ModeManager.cs" />
     <Compile Include="Modes\Active.cs" />
     <Compile Include="Modes\Combo.cs" />
@@ -109,21 +122,18 @@
     <Compile Include="Modes\LaneClear.cs" />
     <Compile Include="Modes\LastHit.cs" />
     <Compile Include="Modes\ModeBase.cs" />
+    <Compile Include="MyGeo.cs" />
     <Compile Include="MyMenu.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SmartCaster.cs" />
     <Compile Include="SpellManager.cs" />
+    <Compile Include="Utils.cs" />
     <Compile Include="WallDashes.cs" />
     <Compile Include="WallManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Lib\Lib.csproj">
-      <Project>{3f902670-6df6-48e2-bf4b-9a63301f41c2}</Project>
-      <Name>Lib</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

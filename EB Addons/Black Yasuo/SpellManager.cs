@@ -4,8 +4,6 @@ using EloBuddy;
 using EloBuddy.SDK;
 using EloBuddy.SDK.Enumerations;
 using EloBuddy.SDK.Events;
-using Lib;
-
 using static BlackYasuo.Helper;
 
 namespace BlackYasuo

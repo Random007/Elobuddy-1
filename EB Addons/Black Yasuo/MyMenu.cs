@@ -1,11 +1,9 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
+using BlackYasuo.MenuControls;
 using EloBuddy;
 using EloBuddy.SDK.Menu;
 using EloBuddy.SDK.Menu.Values;
-using Lib;
-using Lib.MenuControls;
-
 using static BlackYasuo.Helper;
 using static BlackYasuo.SpellManager;
 

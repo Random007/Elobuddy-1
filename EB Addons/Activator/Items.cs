@@ -60,8 +60,7 @@ namespace Activator
         public static List<Item> Detectors = new List<Item>
         {
             new Item(ItemId.Sweeping_Lens_Trinket, 650),
-            new Item(ItemId.Oracle_Alteration, 650),
-            new Item(ItemId.Vision_Ward, 650),
+            new Item(ItemId.Oracle_Alteration, 650)
         };
 
         public static List<Item> WardsAndTrinketsItems = new List<Item>

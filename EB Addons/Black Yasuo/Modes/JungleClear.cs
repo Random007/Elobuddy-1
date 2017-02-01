@@ -1,6 +1,4 @@
 ﻿using EloBuddy.SDK;
-using Lib;
-
 using static BlackYasuo.SpellManager;
 using static BlackYasuo.MyMenu;
 

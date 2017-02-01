@@ -22,7 +22,7 @@ namespace BlackYasuo
 
             //if (position.CountEnemiesInRange(900) >= 3) return false;
 
-            if (position.CountEnemiesInRange(900) >= 2 && Me.HealthPercent < 25) return false;
+            if (position.CountEnemyChampionsInRange(900) >= 2 && Me.HealthPercent < 25) return false;
 
             return true;
         }

@@ -3,7 +3,6 @@ using System.Linq;
 using EloBuddy;
 using EloBuddy.SDK;
 using EloBuddy.SDK.Events;
-using Lib;
 using static BlackYasuo.Helper;
 using static BlackYasuo.SpellManager;
 using static BlackYasuo.ModeManager;
@@ -35,7 +34,7 @@ namespace BlackYasuo.Modes
                 }
                 else
                 {
-                    if (DashManager.GetPlayerPosition().CountEnemiesInRange(QCircleRange) >= 1)
+                    if (DashManager.GetPlayerPosition().CountEnemyChampionsInRange(QCircleRange) >= 1)
                     {
                         Console.WriteLine("Q Dash COmbo");
                         Q.Cast();
@@ -66,7 +65,7 @@ namespace BlackYasuo.Modes
 
             #region Ult
 
-            if (Me.CountEnemiesInRange(1000) >= 2)
+            if (Me.CountEnemyChampionsInRange(1000) >= 2)
             {
                 //TeamFight
                 if (ComboMenu.GetCheckBoxValue(R, "combo"))

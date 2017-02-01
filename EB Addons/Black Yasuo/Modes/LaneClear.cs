@@ -1,8 +1,6 @@
 ﻿using System.Linq;
 using EloBuddy;
 using EloBuddy.SDK;
-using Lib;
-
 using static BlackYasuo.Helper;
 using static BlackYasuo.SpellManager;
 using static BlackYasuo.MyMenu;
@@ -27,7 +25,7 @@ namespace BlackYasuo.Modes
             var canUseE = FarmMenu.GetCheckBoxValue(E, "lane");
 
             //Normal Laneclear(safer)
-            if (Me.CountEnemiesInRange(1200) >= 1)
+            if (Me.CountEnemyChampionsInRange(1200) >= 1)
             {
                 if (!Me.Dashing() && !HasQ3())
                 {

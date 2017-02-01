@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.26127.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Activator", "Activator\Activator.csproj", "{E789D8C9-97BE-47F0-8CA4-9FCB98FCD76E}"
 EndProject
@@ -10,8 +10,6 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChampionTemplate", "ChampionBase\ChampionTemplate.csproj", "{74296D18-18DC-40A0-82F2-4A86D3B76D3A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlackYasuo", "Black Yasuo\BlackYasuo.csproj", "{04BFEB27-681B-4157-8FFB-D0C56AA712E9}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PokeBuddyGo", "PokeBuddyGo\PokeBuddyGo.csproj", "{1B0F2B56-D747-4F21-8075-8995B40DE00B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -71,18 +69,6 @@ Global
 		{04BFEB27-681B-4157-8FFB-D0C56AA712E9}.Release|x64.Build.0 = Release|Any CPU
 		{04BFEB27-681B-4157-8FFB-D0C56AA712E9}.Release|x86.ActiveCfg = Release|x86
 		{04BFEB27-681B-4157-8FFB-D0C56AA712E9}.Release|x86.Build.0 = Release|x86
-		{1B0F2B56-D747-4F21-8075-8995B40DE00B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1B0F2B56-D747-4F21-8075-8995B40DE00B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1B0F2B56-D747-4F21-8075-8995B40DE00B}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{1B0F2B56-D747-4F21-8075-8995B40DE00B}.Debug|x64.Build.0 = Debug|Any CPU
-		{1B0F2B56-D747-4F21-8075-8995B40DE00B}.Debug|x86.ActiveCfg = Debug|x86
-		{1B0F2B56-D747-4F21-8075-8995B40DE00B}.Debug|x86.Build.0 = Debug|x86
-		{1B0F2B56-D747-4F21-8075-8995B40DE00B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1B0F2B56-D747-4F21-8075-8995B40DE00B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{1B0F2B56-D747-4F21-8075-8995B40DE00B}.Release|x64.ActiveCfg = Release|Any CPU
-		{1B0F2B56-D747-4F21-8075-8995B40DE00B}.Release|x64.Build.0 = Release|Any CPU
-		{1B0F2B56-D747-4F21-8075-8995B40DE00B}.Release|x86.ActiveCfg = Release|x86
-		{1B0F2B56-D747-4F21-8075-8995B40DE00B}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

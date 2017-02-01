@@ -1,8 +1,6 @@
 ﻿using System.Linq;
 using EloBuddy;
 using EloBuddy.SDK;
-using Lib;
-using Lib.Databases;
 using SharpDX;
 
 using static BlackYasuo.SpellManager;
@@ -12,7 +10,6 @@ namespace BlackYasuo
     public static class Helper
     {
         public static Cache EntityCache;
-        public static AddonDisabler AddonDisabler;
         //public static MissileDetection MissileDetection;
 
         public static AIHeroClient Me => Player.Instance;
@@ -20,7 +17,6 @@ namespace BlackYasuo
         public static void Load()
         {
             EntityCache = new Cache();
-            AddonDisabler = new AddonDisabler();
             //MissileDetection = new MissileDetection();
         }
 
@@ -72,7 +68,7 @@ namespace BlackYasuo
         public static TargetR GetBestTargetToR()
         {
             var knockedEnemies = EntityCache.EnemyHeroes
-                        .OrderByDescending(e => e.CountEnemiesInRange(600))
+                        .OrderByDescending(e => e.CountEnemyChampionsInRange(600))
                         .ThenBy(e => e.HealthPercent)
                         .ThenByDescending(e => e.FlatPhysicalDamageMod)
                         .Where(h => h.IsKnockedUp() && h.IsValidTarget(R.Range) && !h.IsInvulnerable);

@@ -1,4 +1,5 @@
-﻿using Lib;
+﻿using EloBuddy.SDK;
+using Lib;
 
 using static ChampionTemplate.Helper;
 using static Lib.Utils;

@@ -37,11 +37,6 @@ namespace BlackYasuo
 
         private static void Game_OnTick(EventArgs args)
         {
-            if (AddonDisabler.CanDisable)
-            {
-                Game.OnTick -= Game_OnTick;
-            }
-
             if (Me.IsDead) return;
 
             Active.Execute();

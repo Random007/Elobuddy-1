@@ -6,8 +6,6 @@ using System.Threading.Tasks;
 using EloBuddy;
 using EloBuddy.SDK;
 using EloBuddy.SDK.Events;
-using Lib;
-
 using static BlackYasuo.Helper;
 using static BlackYasuo.SpellManager;
 using static BlackYasuo.ModeManager;

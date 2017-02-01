@@ -4,7 +4,6 @@ using System.Linq;
 using EloBuddy;
 using EloBuddy.SDK;
 using EloBuddy.SDK.Rendering;
-using Lib;
 using SharpDX.Direct3D9;
 using static BlackYasuo.Helper;
 using static BlackYasuo.SpellManager;
